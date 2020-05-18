@@ -1,0 +1,62 @@
+* body{background-color: orangered;
+
+}
+
+
+h1{
+  background-color: tomato;
+}
+/* #img{margin:auto
+  
+
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  margin-left: 200px;
+  float: left;
+
+}
+
+
+
+.right{
+  margin-right: 100px;
+}
+.left{
+  margin-right: 300px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-left: px;
+  float-left:100px;
+
+}
+
+
+.creat-form{
+  margin-bottom: 50px;
+} */
+
+#banner {
+  width: 60%;
+  height: 30vh;
+  margin-left: 20%;
+}
+
+.col-5 {
+  margin: auto;
+  text-align: center;
+}

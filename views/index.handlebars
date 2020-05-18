@@ -1,0 +1,27 @@
+<div class="row justify-content-center mt-5 mb-5">
+  <input type="text" id="newburger" placeholder="enter a new burger name">
+  <button id="submit">ADD BURGER</button>
+</div>
+<div class="row">
+  <div class="col-5"><ol class='left'>
+  {{#each burgers}}
+    {{#unless devour}}
+      {{> burgers/burger-block hunger=true}}
+    {{/unless}}
+  {{/each}}
+</ol></div>
+  <div class="col-5">
+<ol class='right'>
+  {{#each burgers}}
+    {{#if devour}}
+      {{> burgers/burger-block hunger=false}}
+    {{/if}}
+  {{/each}}
+</ol></div>
+</div>
+
+
+
+
+
+
